@@ -1,0 +1,28 @@
+{
+	"name" : "claudio-venturini/silex-locale-detector",
+	"type" : "library",
+	"description" : "Silex Service Provider to detect the user's locale and language",
+	"version" : "0.1",
+	"license" : "MIT",
+	"keywords" : [
+		"silex",
+		"i18n",
+		"internationalization",
+		"locale",
+		"l10n",
+		"localization"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"ClaudioVenturini\\Silex\\LocaleDetector\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=5.6",
+		"silex/silex" : "~2.0"
+	},
+	"authors" : [{
+			"name" : "Claudio Venturini"
+		}
+	]
+}
