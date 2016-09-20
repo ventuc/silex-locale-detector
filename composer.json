@@ -2,7 +2,7 @@
 	"name" : "claudio-venturini/silex-locale-detector",
 	"type" : "library",
 	"description" : "Silex Service Provider to detect the user's locale and language",
-	"version" : "0.1.2",
+	"version" : "0.1.3-dev",
 	"license" : "MIT",
 	"keywords" : [
 		"silex",
