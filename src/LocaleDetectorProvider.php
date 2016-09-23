@@ -15,7 +15,7 @@ use Silex\Application;
 class LocaleDetectorProvider implements ServiceProviderInterface {
 	
 	public function register(Container $container) {
-		$container['pixcame.locale.detector'] = (function (Application $app) {
+		$container['locale.detector'] = (function (Application $app) {
 			return new LocaleDetector($app['request_stack']->getCurrentRequest());
 		});
 	}
